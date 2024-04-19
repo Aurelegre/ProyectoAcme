@@ -51,7 +51,7 @@ namespace Acme.Controllers
                 var tokenDescriptor = new SecurityTokenDescriptor
                 {
                     Subject = claims,
-                    Expires = DateTime.UtcNow.AddMinutes(3), //token expira cada 3 mins
+                    Expires = DateTime.UtcNow.AddMinutes(5), //token expira cada 5 mins
                     SigningCredentials = new SigningCredentials (new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature)
                 };
 
