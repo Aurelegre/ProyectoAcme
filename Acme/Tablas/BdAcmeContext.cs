@@ -37,7 +37,7 @@ public partial class BdAcmeContext : DbContext
             entity.Property(e => e.Idcampo).HasColumnName("idcampo");
             entity.Property(e => e.IdEncuesta).HasColumnName("idEncuesta");
             entity.Property(e => e.Nombre)
-                .HasMaxLength(50)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.Requerido)
                 .HasMaxLength(1)
@@ -47,7 +47,7 @@ public partial class BdAcmeContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Titulo)
-                .HasMaxLength(50)
+                .HasMaxLength(300)
                 .IsUnicode(false);
 
             entity.HasOne(d => d.IdEncuestaNavigation).WithMany(p => p.Campos)
@@ -67,7 +67,7 @@ public partial class BdAcmeContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("descripcion");
             entity.Property(e => e.Nombre)
-                .HasMaxLength(80)
+                .HasMaxLength(300)
                 .IsUnicode(false);
         });
 
@@ -98,7 +98,7 @@ public partial class BdAcmeContext : DbContext
 
             entity.Property(e => e.IdRespuesta).HasColumnName("idRespuesta");
             entity.Property(e => e.Contenido)
-                .HasMaxLength(100)
+                .HasMaxLength(500)
                 .IsUnicode(false)
                 .HasColumnName("contenido");
             entity.Property(e => e.Idcampo).HasColumnName("idcampo");

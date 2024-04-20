@@ -4,6 +4,7 @@ using Acme.Tablas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Acme.Migrations
 {
     [DbContext(typeof(BdAcmeContext))]
-    partial class BdAcmeContextModelSnapshot : ModelSnapshot
+    [Migration("20240419235442_ModifyTamañoDeCampos")]
+    partial class ModifyTamañoDeCampos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

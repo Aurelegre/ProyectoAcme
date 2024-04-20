@@ -45,11 +45,14 @@ namespace Acme.Controllers
         }
         [HttpPost]
         [Route("AggCampos")]
-        public async Task<IActionResult> Post(int idEncuesta, CrearCamposDTO camposCrear) // crea los campos de la encuesta
+        public async Task<IActionResult> Post(int idEncuesta, CrearCamposDTO[]  camposCrear) // crea los campos de la encuesta
         {
-            var campo = mapper.Map<Campo>(camposCrear);
-            campo.IdEncuesta = idEncuesta;
-            context.Add(campo);
+            var campos = mapper.Map<Campo[]>(camposCrear);
+            foreach (var campo in campos)
+            {
+                campo.IdEncuesta = idEncuesta;
+            }
+            context.AddRange(campos);
             await context.SaveChangesAsync();
             return Ok();
         }
