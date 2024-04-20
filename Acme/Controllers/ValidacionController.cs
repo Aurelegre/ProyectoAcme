@@ -28,6 +28,19 @@ namespace Acme.Controllers
         }
 
         [HttpPost]
+        [Route("AggUsuario")]
+        public async Task<IActionResult> Post(CrearUsuarioDTO usuarioCrear)
+        {
+            var usuario = new Usuario{
+                Nombre = usuarioCrear.Nombre,
+                Contraseña = usuarioCrear.Contraseña
+            };
+            context.Add(usuario);
+            await context.SaveChangesAsync();
+            return Ok();
+        }
+
+        [HttpPost]
         [Route("Validar")]
         public async Task<ActionResult> Post(ValidarUsuarioDTO usuarioValidar)
         {
