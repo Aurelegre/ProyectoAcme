@@ -1,0 +1,1000 @@
+{
+	"info": {
+		"_postman_id": "4214468a-f5c0-4333-9c6b-b014bad67015",
+		"name": "Prueba Devel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34387798"
+	},
+	"item": [
+		{
+			"name": "Crear Encuesta 1",
+			"item": [
+				{
+					"name": "Respuestas",
+					"item": [
+						{
+							"name": "Res 1",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Preocupante\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 2",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"SI\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=2",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 3",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Eventos climáticos extremos (huracanes, sequías, inundaciones, etc.)\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=3",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 4",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Implementar políticas de adaptación al cambio climático\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=4",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "4"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 5",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"21\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=5",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "5"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 6",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"SI\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=6",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "6"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 7",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"10/10/2039\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=7",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "7"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 8",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Activamente involucrado\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=8",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "8"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 9",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Es un tema tan conocido por todos pero por el que pocos se lo toman como la seriedad que debe\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/1?idcampo=9",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"1"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "9"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Encuesta 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"El Cambio Climático\",\r\n  \"descripcion\": \"Esta encuesta aborda diversas perspectivas sobre el cambio climático, desde la percepción pública hasta las acciones individuales y las políticas gubernamentales.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Campos Encuesta 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n   {\r\n    \"nombre\": \"Pregunta 1\",\r\n    \"titulo\": \"¿Cuál es tu opinión sobre la situación actual del cambio climático?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Texto\"\r\n  },\r\n  {\r\n    \"nombre\": \"Pregunta 2\",\r\n    \"titulo\": \"¿Crees que el cambio climático es causado principalmente por la actividad humana?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Texto\"\r\n  },\r\n  {\r\n    \"nombre\": \"Pregunta 3\",\r\n    \"titulo\": \"¿Qué impactos del cambio climático crees que son más evidentes en tu región?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Texto\"\r\n  }\r\n,\r\n  {\r\n    \"nombre\": \"Pregunta 4\",\r\n    \"titulo\": \"¿Qué medidas crees que deberían tomarse para abordar el cambio climático?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Número\"\r\n  }\r\n,\r\n  {\r\n    \"nombre\": \"Pregunta 5\",\r\n    \"titulo\": \"Coloca tu edad en números\",\r\n    \"requerido\": \"n\",\r\n    \"tipo\": \"Número\"\r\n  }\r\n,\r\n  {\r\n    \"nombre\": \"Pregunta 6\",\r\n    \"titulo\": \"¿Consideras que el cambio climático es una prioridad para los gobiernos y las empresas?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Texto\"\r\n  }\r\n,\r\n  {\r\n    \"nombre\": \"Pregunta 7\",\r\n    \"titulo\": \"¿Hasta que año estimas que habrá buena calidad de vida? dd/mm/aaaa\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"fecha\"\r\n  }\r\n,\r\n  {\r\n    \"nombre\": \"Pregunta 8\",\r\n    \"titulo\": \"¿Qué tanto te involucras en actividades para reducir tu huella de carbono y combatir el cambio climático?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Texto\"\r\n  }\r\n,\r\n  {\r\n    \"nombre\": \"Pregunta 9\",\r\n    \"titulo\": \"¿Tienes alguna sugerencia adicional o comentario sobre el cambio climático que te gustaría compartir?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Texto\"\r\n  }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/AggCampos?idEncuesta=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"AggCampos"
+							],
+							"query": [
+								{
+									"key": "idEncuesta",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Datos Encuesta 1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/Select?id=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"Select"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar Encuesta 1",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"\",\r\n  \"descripcion\": \"Esta es una modificación a la descripcion de la encuesta 1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/Update?idEncuesta=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"Update"
+							],
+							"query": [
+								{
+									"key": "idEncuesta",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar Campo Encuesta 1",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"\",\r\n  \"titulo\": \"Esta es una modificación al campo 2 de la encuesta 1\",\r\n  \"requerido\": \"\",\r\n  \"tipo\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/Update/Campo?idcampo=2&idEncuesta=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"Update",
+								"Campo"
+							],
+							"query": [
+								{
+									"key": "idcampo",
+									"value": "2"
+								},
+								{
+									"key": "idEncuesta",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Encuesta 1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/Delete?idEncuesta=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"Delete"
+							],
+							"query": [
+								{
+									"key": "idEncuesta",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Crear Encuesta 2",
+			"item": [
+				{
+					"name": "Respuestas",
+					"item": [
+						{
+							"name": "Res 1",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Familiarizado\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/2?idcampo=10",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"2"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 2",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Automatización de tareas laborales\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/2?idcampo=11",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"2"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "11"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 3",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Privacidad y seguridad de datos\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/2?idcampo=12",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"2"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "12"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 4",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"Desarrollar estándares éticos para la IA\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/2?idcampo=13",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"2"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "13"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Res 5",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"contenido\": \"19/12/2002\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7200/api/Responder/2?idcampo=14",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7200",
+									"path": [
+										"api",
+										"Responder",
+										"2"
+									],
+									"query": [
+										{
+											"key": "idcampo",
+											"value": "14"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Encuesta 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"La IA\",\r\n  \"descripcion\": \"Esta encuesta aborda diversos aspectos de la Inteligencia Artificial, incluyendo el nivel de conocimiento, las percepciones sobre su potencial, las preocupaciones éticas.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Campos Encuesta 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n   {\r\n    \"nombre\": \"Pregunta 1\",\r\n    \"titulo\": \"¿Qué nivel de familiaridad tienes con el concepto de Inteligencia Artificial (IA)?\",\r\n    \"requerido\": \"n\",\r\n    \"tipo\": \"Texto\"\r\n  },\r\n  {\r\n    \"nombre\": \"Pregunta 2\",\r\n    \"titulo\": \"¿En qué áreas crees que la IA tiene el mayor potencial de impacto positivo?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Texto\"\r\n  },\r\n  {\r\n    \"nombre\": \"Pregunta 3\",\r\n    \"titulo\": \"¿Cuáles son tus principales preocupaciones éticas sobre el desarrollo y el uso de la IA? \",\r\n    \"requerido\": \"n\",\r\n    \"tipo\": \"Texto\"\r\n  }\r\n,\r\n  {\r\n    \"nombre\": \"Pregunta 4\",\r\n    \"titulo\": \"¿Qué crees que se debería hacer para mitigar los riesgos asociados con la IA?\",\r\n    \"requerido\": \"s\",\r\n    \"tipo\": \"Texto\"\r\n  }\r\n,\r\n  {\r\n    \"nombre\": \"Pregunta 5\",\r\n    \"titulo\": \"Coloca tu fecha de nacimiento  dd/mm/aaaa\",\r\n    \"requerido\": \"n\",\r\n    \"tipo\": \"fecha\"\r\n  }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/AggCampos?idEncuesta=2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"AggCampos"
+							],
+							"query": [
+								{
+									"key": "idEncuesta",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Datos Encuesta 2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/Select?id=2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"Select"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar Encuesta 2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"Esta es una modificación a la descripcion de la encuesta 2\",\r\n  \"descripcion\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/Update?idEncuesta=2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"Update"
+							],
+							"query": [
+								{
+									"key": "idEncuesta",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar Campo Encuesta 2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"\",\r\n  \"titulo\": \"Esta es una modificación al campo 3 de la encuesta 2\",\r\n  \"requerido\": \"\",\r\n  \"tipo\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/Update/Campo?idcampo=12&idEncuesta=2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"Update",
+								"Campo"
+							],
+							"query": [
+								{
+									"key": "idcampo",
+									"value": "12"
+								},
+								{
+									"key": "idEncuesta",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Encuesta 2",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7200/api/Encuesta/Delete?idEncuesta=2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7200",
+							"path": [
+								"api",
+								"Encuesta",
+								"Delete"
+							],
+							"query": [
+								{
+									"key": "idEncuesta",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "VALIDAR JWT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Admin\",\r\n  \"contraseña\": \"root\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7200/api/Usuario/Validar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7200",
+					"path": [
+						"api",
+						"Usuario",
+						"Validar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Admin\",\r\n  \"contraseña\": \"root\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7200/api/Usuario/AggUsuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7200",
+					"path": [
+						"api",
+						"Usuario",
+						"AggUsuario"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
